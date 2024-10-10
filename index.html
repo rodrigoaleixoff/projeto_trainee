@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cafeteria</title>
+    <title>Palavras Cafeinadas</title>
+    <link rel="shortcut icon" href="./contatos/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -51,23 +52,57 @@
         <div class="cafeteria-title">
             <h2>CAFETERIA</h2>
         </div>
+        <div class="carrossel">
+            <div class="arrow-left"><button><img src="./images/Flecha anterior.svg" alt="seta para esquerda"></button></div>
+            <div class="content">
+                <div class="cafeteria-card">
+                    <img src="./carrossel/img1.svg" alt="">
+                    <h3>Bolo De Capuccino</h3>
+                    <p>O brigadeiro de cappuccino é uma das guloseimas que enfeitam o balcão da doceria...</p>
+                </div>
+                <div class="cafeteria-card">
+                    <img src="./carrossel/img2.svg" alt="">
+                    <h3>Bolo De Chocolate</h3>
+                    <p>O bolo de chocolate é uma das sobremesas mais pedidas da Cafeteira, ele possui um recheio com...</p>
+                </div>
+                <div class="cafeteria-card">
+                    <img src="./carrossel/img3.svg" alt="">
+                    <h3>Pão De Mel</h3>
+                    <p>O pão de mel é um dos doces mais tradicionais que temos, ele é recheado com doce de leite...</p>
+                </div>
+                <div class="cafeteria-card">
+                </div>
+            </div>
+            <div class="arrow-right"><button><img src="./images/Flecha Proximo.svg" alt="seta para direita"></button></div>
+        </div>
     </div>
-    <div class="entre-em-contato">
-        <div class="entre-em-contato-inside">
-            <h2>ENTRE EM CONTATO</h2>
+    <div class="div-contato">
+        <div class="contato-texts">
+            <h1>ENTRE EM CONTATO</h1>
+        </div>
+        <div class="contato"> 
+            <div class="contato-links">
+                <p><img src="./contatos/telefone.svg" alt="icon-telephone">19-991256972</p>
+                <p><img src="./contatos/email.svg" alt="icon-email">contato@gmail.com</p>
+                <p class="contato-links-adress"><img src="./contatos/localização.svg" alt="icon-map">Av. Paulista, 1324 - Bela Vista, São Paulo - SP, 01310-100</p>
+                <p><img src="./contatos/instagram.svg" alt="icon-instagram">@palavrascafeinadas</p>
+                <p><img src="./contatos/facebook.svg" alt="icon-facebook">Palavras Cafeinadas</p>
+                <div class="contato-logo">
+                    <img src="./contatos/logo.svg" alt="icon-palavras-cafeinadas">
+                </div>
+            </div>
             <div class="contato-forms">
                 <form>
                     <label for="Nome">Nome</label>
-                    <input type="text" name="nome" id="nome">
+                    <input type="text" class="input-forms" name="nome" id="nome">
                     <label for="Email">E-mail</label>
-                    <input type="email" name="email" id="email">
+                    <input type="email" class="input-forms" name="email" id="email">
                     <label for="Mensagem">Mensagem</label>
-                    <input type="text" name="mensagem" id="mensagem">
+                    <input type="text" class="input-forms" name="mensagem" id="mensagem">
                     <button class="contato-button">Enviar Mensagem<img src="./images/seta.svg" alt="seta-icon"></button>
                 </form>
             </div>
         </div>
-        
     </div>
     <div class="footer">
         <h3 id="footer-left">Desenvolvido por Unect Jr</h3>
