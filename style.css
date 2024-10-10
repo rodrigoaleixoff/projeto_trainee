@@ -8,7 +8,7 @@
 
 .header{
     background-color: #57290B;
-    width: 100%;
+    width: auto;
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -66,6 +66,9 @@
 
 .intro{
     background-image: url("./images/BackGround-intro.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     width: 100%;
     height: 559px;;
 }
@@ -119,11 +122,11 @@
 }
 
 .sobre-nos-inside{
-    padding-left: 104px;
+    padding-left: 120px;
     padding-top: 56px;
 }
 
-.sobre-nos-inside h2{
+.sobre-nos-inside h2, .entre-em-contato-inside h2{
     font-family: Cormorant Garamond;
     font-size: 40px;
     font-weight: 700;
@@ -164,11 +167,86 @@
     display: inline-block;
 }
 
-.sobre-nos-left img{
-    margin-left: 12px;
+.sobre-nos-right{
+    width: 67%;
 }
 
-.sobre-nos-right{
-    width: 50%;
+.sobre-nos-right img{
+    width: 352px;
+    height: 340.41px;
+    margin: 0 45%;
+}
+
+.cafe-onda{
+    display: f;
+}
+
+.cafe-onda img {
+    width: auto;
+}
+
+.cafeteria{
+    width: auto;
+    height: 745px;
+    background-color: #80451F;
+}
+
+.cafeteria-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+
+.cafeteria-title h2{
+    font-family: Cormorant Garamond;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #F0F0F0;
+    padding-top: 129px;
+    border-bottom: 3px solid;
+    border-color: #B2784A;
+}
+
+.entre-em-contato{
+    width: auto;
+    height: 1084px;
+}
+
+.entre-em-contato-inside{
+    padding-left: 120px;
+    padding-top: 128px;
+
+}
+
+.footer{
+    display: flex;
+    width: auto;
+    height: 75px;
+    background-color: #57290B;
+    justify-content: space-between;
+}
+
+.footer h3{
+    display: inline-flex;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #FFDAB8;
+    align-items: center;
+}
+
+#footer-left{
+    padding-left: 10%;
+}
+
+#footer-right{
     float: right;
+    padding-right: 10%;
 }
