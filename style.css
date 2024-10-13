@@ -272,7 +272,7 @@ button, a{
 .contato-inside{
     display: grid;
     grid-template-columns: 5fr 7fr;
-    margin: 0 20% 5% 5%;
+    margin: 0 20% 5% 136px;
     border-radius: 0.6rem;
     box-shadow: 3px 3px 3px 3px rgb(0 0 0 / 0.10);
     filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
@@ -283,8 +283,21 @@ button, a{
     font-weight: 700;
     font-size: 40px;
 
-    margin: 3% 0 2% 5%;
+    margin: 3% 0 2% 136px;
 
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 56px;
+
+}
+
+.quadrado-rosa-dois{
+    margin-left: 125px;
+    margin-top: -65px;
+    width: 510px;
+    height: 30px;
+    background-color: #FBC9A8;
+    margin-bottom: 64px;
 }
 
 .contato-h1-details{
@@ -537,6 +550,53 @@ button, a{
     .contatos-mobile{
         display: flex;
     }
+    
+    .contato-texts h1 {
+        font-weight: 700;
+        font-size: 40px;
+        margin: 20px 62px 2% 39px;
+        font-size: 40px;
+        font-size: 50px;
+    }
+
+    .quadrado-rosa-dois{
+        margin-left: 30px;
+        margin-top: -45px;
+    }
+
+    .contato-inside{
+        margin: 0 0 0 67px;
+        display: inline;
+    }
+
+    .contatos-mobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 3rem 0 0 0;
+    }
+
+    .contatos-mobile h1{
+        font-family: "Open Sans", serif;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 42px;
+        letter-spacing: 0.02em;
+        text-align: left;
+
+    }
+
+    .contatos-mobile-buttons{
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+        margin: 2rem 1rem 4rem 1rem;
+    }
+
+    .contatos-mobile-buttons button{
+        border:none;
+    }
 
     /*footer*/
 
@@ -568,4 +628,10 @@ button, a{
         padding-left: 30px;
     }
 
+}
+
+@media (max-width: 591px){
+    .quadrado-rosa-dois{
+        width: 258px;
+    }
 }
