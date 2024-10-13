@@ -20,8 +20,18 @@
         <div class="header-mobile">
             <img src="./images/header/Logo.svg" id="header-icon-mobile">
             <h1>Palavras Cafeinadas</h1>
-            <img src="./images/header/Menu-mob.svg" id="menu-mobile" alt="">
+            <button onclick="menuMobile()"><img src="./images/header/Menu-mob.svg" id="menu-mobile" alt=""></button>
         </div>
+    </div>
+
+    <div class="mobile-options">
+        <ul>
+            <li><a class="mobile-options-button" href="#home">Home</a></li>
+            <li> <a class="mobile-options-button" href="#sobre-nos">Sobre Nós</a></li>
+            <li><a class="mobile-options-button" href="#cafeteria">Cafeteria</a></li>
+            <li><a class="mobile-options-button" href="#contato">Contato</a></li>
+        </ul>
+
     </div>
 
     <div class="intro">
@@ -53,6 +63,34 @@
 
     <div class="cafeteria">
         <div class="cafe-onda"></div>
+        <div class="cafeteria-inside">
+            <div class="cafeteria-title">
+                <h2>CAFETERIA</h2>
+            </div>
+            <div class="carrossel">
+                <div class="arrow-left"><button><img src="./images/cafeteria/Flecha anterior.png" alt="seta para esquerda"></button></div>
+                <div class="content">
+                    <div class="cafeteria-card" id="card-1">
+                        <img src="./images/cafeteria/img1.jpeg" alt="">
+                        <h3>Bolo De Capuccino</h3>
+                        <p>O brigadeiro de cappuccino é uma das guloseimas que enfeitam o balcão da doceria...</p>
+                    </div>
+                    <div class="cafeteria-card" id="card-2">
+                        <img src="./images/cafeteria/img2.jpeg" alt="">
+                        <h3>Bolo De Chocolate</h3>
+                        <p>O bolo de chocolate é uma das sobremesas mais pedidas da Cafeteira, ele possui um recheio com...</p>
+                    </div>
+                    <div class="cafeteria-card" id="card-3">
+                        <img src="./images/cafeteria/img3.jpeg" alt="">
+                        <h3>Pão De Mel</h3>
+                        <p>O pão de mel é um dos doces mais tradicionais que temos, ele é recheado com doce de leite...</p>
+                    </div>
+                    <div class="cafeteria-card">
+                    </div>
+                </div>
+                <div class="arrow-right"><button><img src="./images/cafeteria/Flecha Proximo.svg" alt="seta para direita"></button></div>
+            </div>
+        </div>
     </div>
 
     <div class="contato">
@@ -84,7 +122,6 @@
             </div>
         </div>
     </div>
-        
     <div class="contatos-mobile">
         <h1>NOS ENCONTRE AQUI:</h1>
         <div class="contatos-mobile-buttons">
@@ -98,5 +135,9 @@
         <h3 id="footer-left">Desenvolvido por Unect Jr</h3>
         <h3 id="footer-right">Todos os direitos reservados &#169</h3>
     </div>
+
+    <div class="fundo-mobile"></div>
+
+    <script src="script.js"></script>
 </body>
 </html>
